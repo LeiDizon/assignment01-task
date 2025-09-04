@@ -90,7 +90,7 @@ export default function Login({ navigation }: StackScreenProps<any>) {
             start={{ x: 0.0, y: 0.0 }}
             end={{ x: 1.0, y: 1.0 }}
             //This is just to trigger pull request
-            colors={['#C5B4E3', '#C5B4E2']}
+            colors={['#00A3FF', '#031A62']}
             style={styles.gradientContainer}
         >
             {isFocused && <StatusBar animated translucent style="light" />}
@@ -134,7 +134,7 @@ export default function Login({ navigation }: StackScreenProps<any>) {
                     onEndEditing={isPasswordInvalid}
                 />
                 <Spacer size={80} />
-                <BigButton style={{ marginBottom: 8 }} onPress={handleAuthentication} label="Log in" color="#FF8700" />
+                <BigButton style={{ marginBottom: 8 }} onPress={handleAuthentication} label="Log in" color="#00A3FF" />
                 <Spinner
                     visible={isAuthenticating}
                     textContent={'Authenticating...'}
