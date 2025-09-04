@@ -89,7 +89,8 @@ export default function Login({ navigation }: StackScreenProps<any>) {
         <LinearGradient
             start={{ x: 0.0, y: 0.0 }}
             end={{ x: 1.0, y: 1.0 }}
-            colors={['#380f50', '#380f50']}
+            //This is just to trigger pull request
+            colors={['#C5B4E3', '#C5B4E2']}
             style={styles.gradientContainer}
         >
             {isFocused && <StatusBar animated translucent style="light" />}
@@ -137,7 +138,7 @@ export default function Login({ navigation }: StackScreenProps<any>) {
                 <Spinner
                     visible={isAuthenticating}
                     textContent={'Authenticating...'}
-                    overlayColor="#031A62BF"
+                    overlayColor="#0d2261bf"
                     textStyle={styles.spinnerText}
                 />
             </KeyboardAwareScrollView>
