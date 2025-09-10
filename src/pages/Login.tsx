@@ -90,7 +90,7 @@ export default function Login({ navigation }: StackScreenProps<any>) {
             start={{ x: 0.0, y: 0.0 }}
             end={{ x: 1.0, y: 1.0 }}
             //This is just to trigger pull request
-            colors={['#00A3FF', '#031A62']}
+            colors={['#4E145E', '#081040']}
             style={styles.gradientContainer}
         >
             {isFocused && <StatusBar animated translucent style="light" />}
@@ -102,6 +102,7 @@ export default function Login({ navigation }: StackScreenProps<any>) {
                     justifyContent: 'center',
                     alignItems: 'stretch',
                 }}
+                
             >
                 <Image
                     resizeMode="contain"
